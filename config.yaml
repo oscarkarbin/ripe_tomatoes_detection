@@ -1,0 +1,9 @@
+path: D:/tomato_ripeness_object_detection/data #root dir to our data folder you must change this to your own 
+train: images/train #relative path to train folder
+val: images/val     #     --||--      val folder
+
+#Classes
+names:
+  0: unripe
+  1: semi-ripe
+  2: fully-ripe
